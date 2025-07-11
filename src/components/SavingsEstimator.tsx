@@ -29,7 +29,7 @@ const SavingsEstimator = () => {
       
       setResults({
         capacity: Math.round(capacityKW * 10) / 10, // Round to 1 decimal
-        investment: Math.round(investmentAmount / 10000) / 10, // Convert to lakhs, 1 decimal
+        investment: investmentAmount, // Convert to lakhs, 1 decimal
         monthlyCredits: Math.round(unitsNeeded)
       });
     } else {
