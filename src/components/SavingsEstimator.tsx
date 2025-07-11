@@ -135,7 +135,7 @@ const SavingsEstimator = () => {
                     <TrendingUp className="h-8 w-8 text-white" />
                   </div>
                   <div className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
-                    ₹{results.investment}L
+                    ₹{results.investment}
                   </div>
                   <div className="text-emerald-700 font-semibold mb-1">Total Investment</div>
                   <div className="text-sm text-gray-600">One-time setup cost</div>
