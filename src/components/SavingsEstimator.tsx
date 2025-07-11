@@ -25,7 +25,7 @@ const SavingsEstimator = () => {
       // Formula: ₹6 per unit, 1 kW = 120 units/month, ₹50,000 per kW
       const unitsNeeded = savings / 6.5; // ₹6 per unit
       const capacityKW = unitsNeeded / 120; // 120 units per kW per month
-      const investmentAmount = capacityKW * 50000; // ₹50,000 per kW
+      const investmentAmount = capacityKW * 52000; // ₹50,000 per kW
       
       setResults({
         capacity: Math.round(capacityKW * 10) / 10, // Round to 1 decimal
